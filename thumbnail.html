@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./styles.css">
+<style>
+html,body{margin:0;padding:0;height:100%;width:100%;overflow:hidden}
+.page{display:grid;grid-template-columns:1fr 220px;height:100vh}
+.main{background:var(--color-sapphire);display:flex;align-items:center;justify-content:center;padding:0 80px}
+.main img{max-width:100%;height:auto;display:block}
+.strip{display:flex;flex-direction:column}
+.strip>div{flex:1}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="main"><img src="./assets/logo-white.svg" alt="H1"></div>
+  <div class="strip">
+    <div style="background:#a7c7ec"></div>
+    <div style="background:#e7a0c3"></div>
+    <div style="background:#8f1752"></div>
+    <div style="background:#262f38"></div>
+  </div>
+</div>
+</body></html>
